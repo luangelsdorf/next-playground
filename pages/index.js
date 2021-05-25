@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 
-export let pages = ['busca-cores', 'test-components']
+export let pages = ['busca-cores', 'test-components', 'side-bar']
 
 export default function index() {
   return (

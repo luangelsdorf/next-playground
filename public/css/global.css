@@ -12,3 +12,12 @@ body {
 .btn:active {
     transform: scale(0.99);
 }
+
+aside {
+    height: 100%;
+}
+
+aside.active {
+    left: 0;
+    height: 100%;
+}
