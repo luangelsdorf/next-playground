@@ -1,0 +1,9 @@
+.error {
+    background-color: rgba(255, 0, 0, 1);
+    color: #fff;
+    transition: all 400ms ease;
+}
+.error:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #eee;
+}

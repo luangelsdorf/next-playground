@@ -1,0 +1,14 @@
+body {
+    background-color: #222 ;
+    color: #eee ;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}

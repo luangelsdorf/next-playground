@@ -1,11 +1,25 @@
 import React from 'react';
+import Link from 'next/link'
 
-export default function Home() {
+export let pages = ['busca-cores', 'test-components']
 
-
-    return (
-        <div>
-            aaaaasd
-        </div>
-    )
+export default function index() {
+  return (
+    <div className="container">
+      <h1>Home</h1>
+      <ul>
+        {
+          pages.map(page => {
+            return (
+              <li key={page}>
+                <Link href={`/${page}`}>
+                  <a>{ page }</a>
+                </Link>
+              </li>
+            )
+          })
+        }
+      </ul>
+    </div>
+  )
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Busca Cores</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Luan Miguel Ferreira Gelsdorf" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/global.css"/>
+</head>
+
+<style>
+    body {
+        background-color: #222 !important;
+        color: #eee !important;
+        font-family: "Segoe UI", 'sans-serif' !important;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form > * {
+        width: max-content;
+    }
+
+    form > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #errorLog {
+        padding: 10px 15px;
+        margin-top: .5rem;
+    }
+
+    #errorLog > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .material-icons {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .col-12.col-md-6 {
+        text-align: center;
+    }
+
+
+</style>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <h1>Visualizar Cores</h1>
+      <form onsubmit="setCor(event)">
+        <label for="cor">Entre com uma cor hex:</label>
+        <div>
+          <input maxLength="6" required="required" id="cor" type="text"/>
+          <button type="submit">Visualizar -></button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 col-md-6">
+
+    </div>
+    <div class="col-6"></div>
+    <div class="col-6">
+      <code></code>
+    </div>
+  </div>
+</div>
+
+<script>
+    function setCor(e) {
+        e.preventDefault()
+        let input = e.target[0].value
+
+        let cor = '#' + input
+        document.querySelectorAll('.col-12.col-md-6')[1].style.backgroundColor = cor
+        document.querySelector('code').innerText = cor
+        document.querySelector('code').style.color = cor
+    }
+</script>
+
+</body>
+</html>
