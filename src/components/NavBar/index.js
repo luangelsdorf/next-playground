@@ -5,7 +5,7 @@ import {toggleSideBar} from "../../../public/js";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="navbar navbar-dark bg-dark sticky-top">
       <div className="container">
         <div className="d-flex align-items-center">
           <Link href="/">

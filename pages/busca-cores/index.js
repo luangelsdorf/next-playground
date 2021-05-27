@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { validateForm } from "../../public/js/modules/busca-cores";
+import { validateForm } from "../../public/js/modules/busca-cores.js";
 
 export default function Home({ content }) {
 
@@ -47,9 +47,9 @@ export default function Home({ content }) {
 }
 
 export async function getStaticProps() {
-    const dic = await fetch('http://localhost:3000/etc/pt-br.dic')
+    const dic = await fetch('https://raw.githubusercontent.com/lulaluano/next-playground/master/public/etc/pt-br.dic')
     const words =  await dic.text()
-    const content = words.split('\r\n')
+    const content = words.split('\n')
     return {
         props: { content }
     }

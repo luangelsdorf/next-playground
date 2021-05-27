@@ -17,7 +17,6 @@ export default function testComponents() {
         <title>Components</title>
       </Head>
 
-      <NavBar />
       <SideBar />
 
       <div className="container">
