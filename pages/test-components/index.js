@@ -2,6 +2,8 @@ import React from 'react';
 import ButtonIcon from "../../src/components/ButtonIcon";
 import Head from "next/head";
 import {useEffect} from "react";
+import NavBar from "../../src/components/NavBar";
+import SideBar from "../../src/components/SideBar";
 
 export default function testComponents() {
 
@@ -15,8 +17,11 @@ export default function testComponents() {
         <title>Components</title>
       </Head>
 
-      <div className="container p-3">
-        <ButtonIcon icon="shopping_cart">ADD TO CART</ButtonIcon>
+      <NavBar />
+      <SideBar />
+
+      <div className="container">
+        <div>asdasdasd</div>
       </div>
     </>
   )

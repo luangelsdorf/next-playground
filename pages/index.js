@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 
-export let pages = ['busca-cores', 'test-components', 'side-bar']
+export let pages = ['busca-cores', 'test-components', 'side-bar', 'victory', 'apex-charts']
 
 export default function index() {
   return (
