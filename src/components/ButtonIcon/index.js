@@ -12,7 +12,7 @@ export default function ButtonIcon(props) {
   }
 
     return (
-      <button onClick={toggleSideBar} className={`btn btn-dark border-0 bg-transparent`}>
+      <button onClick={props.onClick} className={`btn btn-dark border-0 bg-transparent`}>
           <span className={`material-icons ${space}`}>{props.icon}</span>
           <span>{ props.children }</span>
       </button>
