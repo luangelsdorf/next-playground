@@ -8,7 +8,7 @@ export default function NavBar() {
     <nav className="navbar navbar-dark bg-dark sticky-top">
       <div className="container">
         <div className="d-flex align-items-center">
-          <ButtonIcon onClick={toggleSideBar} icon="menu">MENU</ButtonIcon>
+          <ButtonIcon toggler={true} onClick={toggleSideBar} icon="menu">MENU</ButtonIcon>
         </div>
       </div>
     </nav>
