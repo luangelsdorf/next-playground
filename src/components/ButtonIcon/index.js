@@ -5,7 +5,7 @@ import {toggleSideBar} from "../../../public/js";
 export default function ButtonIcon(props) {
 
   let space;
-  if (props.children) {
+  if (props.children !== undefined) {
     space = 'me-2'
   } else {
     space = ''

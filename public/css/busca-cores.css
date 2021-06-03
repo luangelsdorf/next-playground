@@ -24,7 +24,7 @@ form > div {
     justify-content: center;
 }
 
-.material-icons {
+#errorLog .material-icons {
     display: inline-block;
     margin-right: 10px;
 }
@@ -33,14 +33,14 @@ form > div {
     text-align: center;
 }
 
-input {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
+form input.form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
-.btn {
-    border-top-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
+.form-control + .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #color {

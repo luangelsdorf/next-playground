@@ -8,12 +8,7 @@ export default function NavBar() {
     <nav className="navbar navbar-dark bg-dark sticky-top">
       <div className="container">
         <div className="d-flex align-items-center">
-          <Link href="/">
-            <a className="navbar-brand">
-              <h3 className="m-0 ms-2">Home</h3>
-            </a>
-          </Link>
-          <ButtonIcon icon="menu" />
+          <ButtonIcon icon="menu" >MENU</ButtonIcon>
         </div>
       </div>
     </nav>
