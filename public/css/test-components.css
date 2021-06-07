@@ -1,0 +1,226 @@
+#btn {
+    position: relative;
+}
+
+#lista {
+    padding: 25px;
+    background-color: #fefefe;
+    color: #111;
+    display: none;
+    content: "Menu";
+    position: absolute;
+    box-shadow: 0 0 75px rgba(0, 0, 0, 0.2);
+}
+
+.spacer {
+    height: 300px;
+}
+
+/* expand */
+@keyframes expandX {
+    from {
+        opacity: 0;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: auto;
+    }
+}
+
+@keyframes expandY {
+    from {
+        opacity: 0;
+        height: 0;
+    }
+    to {
+        opacity: 1;
+        height: auto;
+    }
+}
+
+/* collapse */
+@keyframes collapseX {
+    from {
+        opacity: 1;
+        width: auto;
+    }
+    to {
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@keyframes collapseY {
+    from {
+        opacity: 1;
+        height: auto;
+    }
+    to {
+        opacity: 0;
+        height: 0;
+    }
+}
+
+/* fade */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to  {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to  {
+        opacity: 0;
+    }
+}
+
+/* slideIn */
+@keyframes slideUpIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+@keyframes slideDownIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+@keyframes slideLeftIn {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+@keyframes slideRightIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+/* slideOut */
+@keyframes slideUpOut {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes slideDownOut {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
+@keyframes slideLeftOut {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes slideRightOut {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+/* scaleIn */
+@keyframes scaleInUp {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+@keyframes scaleInDown {
+    from {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+/* scaleOut */
+@keyframes scaleOutUp {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes scaleOutDown {
+    from {
+        opacity: 1;
+        transform: initial;
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+#lista.active {
+    display: block;
+    top: 0;
+    left: 85px;
+
+    animation: slideDownIn 500ms ease;
+}
