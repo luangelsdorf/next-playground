@@ -11,7 +11,7 @@ export const animations = {
     'fadeIn',
     'fadeOut',
   ],
-  slide: {
+  slideasd: {
     in: {
       up: {
         from: {},
