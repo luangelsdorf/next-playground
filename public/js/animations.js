@@ -12,22 +12,14 @@ export const animations = {
     'fadeOut',
   ],
   slide: {
-    in: [
-      'slideUpIn',
-      'slideDownIn',
-      'slideLeftIn',
-      'slideRightIn',
-    ],
-    lua: {
-      slideUp: {
-        keyframes: [
-          {opacity: 0},
-          {opacity: 1},
-        ],
-        options: {
-
-        }
-      }
+    in: {
+      up: {
+        from: {},
+        to: {},
+      },
+      down: {},
+      left: {},
+      right: {},
     },
     out: [
       'slideUpOut',
@@ -48,6 +40,23 @@ export const animations = {
   }
 }
 
-class Animate {
+export class Animated {
+  keyframes;
+  options;
+  constructor(easing = 'ease', duration = 500) {
+    this.options = {
+      easing: easing,
+      duration: duration,
+    }
+  }
+}
+
+class EntranceAnimation extends Animated {
+  constructor(easing, duration) {
+    super(easing, duration);
+  }
+}
+
+class ExitAnimation extends Animated {
 
 }

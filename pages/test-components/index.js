@@ -1,23 +1,23 @@
 import React from 'react';
 import Head from "next/head";
-import {animations} from "../../public/js/animations";
+import {Animated} from "../../public/js/animations";
 
 export default function testComponents() {
 
-  function anim(target, duration = 350, easing = 'ease') {
+  function anim(target, duration = 500, easing = 'ease') {
     target.animate(
       [
-        { opacity: '0', height: '0' },
-        { opacity: '1', height: target.scrollHeight + 'px' }
+        {opacity: '0', height: '0'},
+        {opacity: '1', height: target.scrollHeight + 'px'}
       ],
       {
         duration: duration,
         easing: easing,
       }
-    )
+    );
   }
 
-  function animAlt(target, duration = 350, easing = 'ease') {
+  function animAlt(target, duration = 500, easing = 'ease') {
     target.animate(
       [
         {opacity: '1', height: target.scrollHeight + 'px'},
@@ -47,7 +47,7 @@ export default function testComponents() {
   function handleClick() {
     let lista = document.getElementById('lista');
 
-    if (lista.classList.contains('active')) {
+    /*if (lista.classList.contains('active')) {
       lista.style.animation = 'slideDownOut 500ms ease'
       lista.addEventListener('animationend', e => {
         if (e.animationName.includes('Out')) {
@@ -57,7 +57,22 @@ export default function testComponents() {
       })
     } else {
       lista.classList.add('active');
-    }
+    }*/
+    lista.classList.add('active')
+    let animation = lista.animate(
+      [
+        {opacity: '0', transform: 'translateY(50px)'},
+        {opacity: '1', transform: 'initial'}
+      ],
+      {
+        duration: 500,
+        easing: 'linear',
+      }
+    );
+    setTimeout(() => {
+      animation.reverse();
+      animation.onfinish = () => lista.classList.remove('active');
+    }, 2000)
   }
 
   return (
@@ -71,6 +86,7 @@ export default function testComponents() {
         <div className="spacer" />
         <main>
           <div className="position-relative">
+            {/*
             <button id="btn" onClick={handleClick} className="btn btn-success ms-4">Click</button>
             <ul id="lista">
               <li>aassdssd</li>
@@ -78,6 +94,11 @@ export default function testComponents() {
               <li>asasdd</li>
               <li>asadadasdasdad</li>
             </ul>
+            */}
+            <details>
+              <summary>Title</summary>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </details>
           </div>
         </main>
       </div>
