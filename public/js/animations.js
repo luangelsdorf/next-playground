@@ -1,62 +1,73 @@
 export const animations = {
-  expand: [
-    'expandX',
-    'expandY',
-  ],
-  collapse: [
-    'collapseX',
-    'collapseY',
-  ],
-  fade: [
-    'fadeIn',
-    'fadeOut',
-  ],
-  slideasd: {
-    in: {
-      up: {
-        from: {},
-        to: {},
-      },
-      down: {},
-      left: {},
-      right: {},
-    },
-    out: [
-      'slideUpOut',
-      'slideDownOut',
-      'slideLeftOut',
-      'slideRightOut',
-    ]
-  },
-  scale: {
-    in: [
-      'scaleUpIn',
-      'scaleDownIn',
+  expand: {
+    x: [
+      {width: "0"},
+      {width: "auto"},
     ],
-    out: [
-      "scaleUpOut",
-      "scaleDownOut",
-    ]
+    y: [
+      {height: "0"},
+      {height: "auto"},
+    ],
+  },
+  collapse: {
+    x: [
+      {width: "auto"},
+      {width: "0"},
+    ],
+    y: [
+      {height: "auto"},
+      {height: "0"},
+    ],
+  },
+
+  fade: [
+    {opacity: "0"},
+    {opacity: "1"},
+  ],
+
+  slide: {
+    up: [
+      {transform: "translateY(50px)"},
+      {transform: "initial"},
+    ],
+    down: [
+      {transform: "translateY(-50px)"},
+      {transform: "initial"},
+    ],
+    left: [
+      {transform: "translateX(50px)"},
+      {transform: "initial"},
+    ],
+    right: [
+      {transform: "translateX(-50px)"},
+      {transform: "initial"},
+    ],
+  },
+
+  scale: {
+    up: [
+      {transform: "scale(0.9)"},
+      {transform: "initial"},
+    ],
+    down: [
+      {transform: "scale(1.1)"},
+      {transform: "initial"},
+    ],
   }
 }
 
+const baseKeyframes = [
+  {opacity: 0},
+  {opacity: 1}
+]
+
 export class Animated {
-  keyframes;
   options;
-  constructor(easing = 'ease', duration = 500) {
+
+  constructor(easing = 'ease', duration = 250) {
     this.options = {
       easing: easing,
       duration: duration,
     }
   }
-}
-
-class EntranceAnimation extends Animated {
-  constructor(easing, duration) {
-    super(easing, duration);
-  }
-}
-
-class ExitAnimation extends Animated {
-
 }

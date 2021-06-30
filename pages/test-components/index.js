@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Head from "next/head";
-import {Animated} from "../../public/js/animations";
+import {animations as a} from "../../public/js/animations";
 
 export default function testComponents() {
 
@@ -44,35 +44,57 @@ export default function testComponents() {
     }
   })*/
 
+  useEffect(() => {
+    function constructAnimation(target, keyframes, options) {
+      let effect = new KeyframeEffect(target, keyframes, options);
+      return new Animation(effect, document.timeline);
+    }
+
+    let keyframes = a.slide.up;
+    let target = document.querySelector('.spacer');
+    let options = {
+      duration: 500,
+      fill: 'both'
+    };
+
+    let asd = constructAnimation(target, keyframes, options);
+
+  }, [])
+
   function handleClick() {
     let lista = document.getElementById('lista');
-
-    /*if (lista.classList.contains('active')) {
-      lista.style.animation = 'slideDownOut 500ms ease'
-      lista.addEventListener('animationend', e => {
-        if (e.animationName.includes('Out')) {
-          lista.classList.remove('active')
-          lista.style.animation = '';
-        }
-      })
-    } else {
-      lista.classList.add('active');
-    }*/
-    lista.classList.add('active')
-    let animation = lista.animate(
-      [
-        {opacity: '0', transform: 'translateY(50px)'},
-        {opacity: '1', transform: 'initial'}
-      ],
+    let animationKeyframes = new KeyframeEffect(
+      lista,
+      a.slide.up,
       {
-        duration: 500,
-        easing: 'linear',
+        duration: 250,
+        easing: 'ease',
+        fill: 'both'
       }
     );
-    setTimeout(() => {
+    let animation = new Animation(animationKeyframes, document.timeline);
+
+    if (lista.classList.contains('visible')) {
       animation.reverse();
-      animation.onfinish = () => lista.classList.remove('active');
-    }, 2000)
+      animation.onfinish = () => {
+        lista.classList.replace('visible', 'invisible')
+      }
+
+    } else {
+      lista.classList.replace('invisible', 'visible')
+      animation.play();
+    }
+  }
+
+  let from, to;
+  let baseKeyframes = [
+    {opacity: '0'},
+    {opacity: '1'}
+  ];
+  [from, to] = baseKeyframes;
+
+  function slideUp() {
+
   }
 
   return (
@@ -86,19 +108,19 @@ export default function testComponents() {
         <div className="spacer" />
         <main>
           <div className="position-relative">
-            {/*
+
             <button id="btn" onClick={handleClick} className="btn btn-success ms-4">Click</button>
-            <ul id="lista">
-              <li>aassdssd</li>
-              <li>aasdsasdsd</li>
-              <li>asasdd</li>
-              <li>asadadasdasdad</li>
+            <ul id="lista" className="invisible">
+              <li><a href="#">aassdssd</a></li>
+              <li><a href="#">aasdsasdsd</a></li>
+              <li><a href="#">asasdd</a></li>
+              <li><a href="#">asadadasdasdad</a></li>
             </ul>
-            */}
-            <details>
+
+            {/*<details>
               <summary>Title</summary>
               <p>Lorem ipsum dolor sit amet.</p>
-            </details>
+            </details>*/}
           </div>
         </main>
       </div>

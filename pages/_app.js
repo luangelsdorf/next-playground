@@ -1,3 +1,4 @@
+import '../public/css/bootstrap.min.css';
 import '../public/css/global.css'
 import Head from 'next/head'
 import NavBar from "../src/components/NavBar";
