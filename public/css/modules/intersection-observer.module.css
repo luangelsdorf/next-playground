@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+}
+
+div .section:nth-child(1) {
+    background: #e9ecef;
+    height: 400px;
+}
+
+div .section:nth-child(2) {
+    background: #dee2e6;
+    height: 600px;
+}
+
+div .section:nth-child(3) {
+    background: #ced4da;
+    height: 200px;
+}
+
+div .section:nth-child(4) {
+    background: #adb5bd;
+    height: 800px;
+}
+
+div .section:nth-child(5) {
+    background: #6c757d;
+    height: 500px;
+}

@@ -27,8 +27,8 @@ export const animations = {
 
   slide: {
     up: [
-      {transform: "translateY(50px)"},
-      {transform: "initial"},
+      { opacity: '0', transform: "translateY(50px)"},
+      { opacity: '1', transform: "initial"},
     ],
     down: [
       {transform: "translateY(-50px)"},
