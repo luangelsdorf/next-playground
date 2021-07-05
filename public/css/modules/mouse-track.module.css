@@ -1,0 +1,21 @@
+.div {
+    height: 100%;
+}
+
+.img {
+    transform: translateX(500px);
+}
+
+.data {
+    background-color: rgba(34, 34, 34, 0.66);
+}
+
+.marker {
+    background-color: #ff0000;
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    transform: translate(-2px, -2px);
+    top: 20px;
+    left: 20px;
+}

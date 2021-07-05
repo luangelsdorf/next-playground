@@ -3,6 +3,14 @@ body {
     color: #eee ;
 }
 
+body, html {
+    height: 100%;
+}
+
+#__next {
+    height: 100%;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
