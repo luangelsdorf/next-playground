@@ -1,0 +1,1153 @@
+[
+  {
+    "type": "header",
+    "version": "4.7.7",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "hospitalsapira"
+  },
+  {
+    "type": "table",
+    "name": "hsap_medico_categoria",
+    "database": "hospitalsapira",
+    "data": [
+      {
+        "id": "33",
+        "idMedico": "25",
+        "idCategoria": "24"
+      },
+      {
+        "id": "94",
+        "idMedico": "55",
+        "idCategoria": "35"
+      },
+      {
+        "id": "95",
+        "idMedico": "55",
+        "idCategoria": "30"
+      },
+      {
+        "id": "96",
+        "idMedico": "56",
+        "idCategoria": "35"
+      },
+      {
+        "id": "97",
+        "idMedico": "56",
+        "idCategoria": "30"
+      },
+      {
+        "id": "98",
+        "idMedico": "56",
+        "idCategoria": "37"
+      },
+      {
+        "id": "100",
+        "idMedico": "58",
+        "idCategoria": "9"
+      },
+      {
+        "id": "101",
+        "idMedico": "58",
+        "idCategoria": "10"
+      },
+      {
+        "id": "102",
+        "idMedico": "59",
+        "idCategoria": "39"
+      },
+      {
+        "id": "103",
+        "idMedico": "59",
+        "idCategoria": "38"
+      },
+      {
+        "id": "104",
+        "idMedico": "60",
+        "idCategoria": "40"
+      },
+      {
+        "id": "105",
+        "idMedico": "61",
+        "idCategoria": "15"
+      },
+      {
+        "id": "112",
+        "idMedico": "67",
+        "idCategoria": "39"
+      },
+      {
+        "id": "113",
+        "idMedico": "67",
+        "idCategoria": "38"
+      },
+      {
+        "id": "114",
+        "idMedico": "68",
+        "idCategoria": "14"
+      },
+      {
+        "id": "116",
+        "idMedico": "70",
+        "idCategoria": "28"
+      },
+      {
+        "id": "117",
+        "idMedico": "71",
+        "idCategoria": "28"
+      },
+      {
+        "id": "119",
+        "idMedico": "73",
+        "idCategoria": "35"
+      },
+      {
+        "id": "120",
+        "idMedico": "73",
+        "idCategoria": "30"
+      },
+      {
+        "id": "124",
+        "idMedico": "76",
+        "idCategoria": "28"
+      },
+      {
+        "id": "130",
+        "idMedico": "80",
+        "idCategoria": "40"
+      },
+      {
+        "id": "161",
+        "idMedico": "101",
+        "idCategoria": "15"
+      },
+      {
+        "id": "168",
+        "idMedico": "107",
+        "idCategoria": "9"
+      },
+      {
+        "id": "169",
+        "idMedico": "107",
+        "idCategoria": "31"
+      },
+      {
+        "id": "173",
+        "idMedico": "110",
+        "idCategoria": "7"
+      },
+      {
+        "id": "177",
+        "idMedico": "113",
+        "idCategoria": "9"
+      },
+      {
+        "id": "178",
+        "idMedico": "113",
+        "idCategoria": "10"
+      },
+      {
+        "id": "182",
+        "idMedico": "116",
+        "idCategoria": "28"
+      },
+      {
+        "id": "184",
+        "idMedico": "118",
+        "idCategoria": "15"
+      },
+      {
+        "id": "193",
+        "idMedico": "126",
+        "idCategoria": "28"
+      },
+      {
+        "id": "200",
+        "idMedico": "132",
+        "idCategoria": "17"
+      },
+      {
+        "id": "209",
+        "idMedico": "138",
+        "idCategoria": "28"
+      },
+      {
+        "id": "216",
+        "idMedico": "145",
+        "idCategoria": "35"
+      },
+      {
+        "id": "217",
+        "idMedico": "145",
+        "idCategoria": "30"
+      },
+      {
+        "id": "223",
+        "idMedico": "150",
+        "idCategoria": "28"
+      },
+      {
+        "id": "229",
+        "idMedico": "149",
+        "idCategoria": "43"
+      },
+      {
+        "id": "240",
+        "idMedico": "7",
+        "idCategoria": "7"
+      },
+      {
+        "id": "250",
+        "idMedico": "87",
+        "idCategoria": "35"
+      },
+      {
+        "id": "251",
+        "idMedico": "87",
+        "idCategoria": "30"
+      },
+      {
+        "id": "255",
+        "idMedico": "49",
+        "idCategoria": "35"
+      },
+      {
+        "id": "256",
+        "idMedico": "49",
+        "idCategoria": "30"
+      },
+      {
+        "id": "260",
+        "idMedico": "34",
+        "idCategoria": "15"
+      },
+      {
+        "id": "261",
+        "idMedico": "35",
+        "idCategoria": "15"
+      },
+      {
+        "id": "263",
+        "idMedico": "17",
+        "idCategoria": "10"
+      },
+      {
+        "id": "266",
+        "idMedico": "33",
+        "idCategoria": "15"
+      },
+      {
+        "id": "267",
+        "idMedico": "121",
+        "idCategoria": "16"
+      },
+      {
+        "id": "279",
+        "idMedico": "142",
+        "idCategoria": "19"
+      },
+      {
+        "id": "284",
+        "idMedico": "154",
+        "idCategoria": "13"
+      },
+      {
+        "id": "286",
+        "idMedico": "156",
+        "idCategoria": "61"
+      },
+      {
+        "id": "292",
+        "idMedico": "63",
+        "idCategoria": "12"
+      },
+      {
+        "id": "293",
+        "idMedico": "64",
+        "idCategoria": "12"
+      },
+      {
+        "id": "294",
+        "idMedico": "65",
+        "idCategoria": "12"
+      },
+      {
+        "id": "296",
+        "idMedico": "77",
+        "idCategoria": "12"
+      },
+      {
+        "id": "297",
+        "idMedico": "93",
+        "idCategoria": "12"
+      },
+      {
+        "id": "301",
+        "idMedico": "103",
+        "idCategoria": "12"
+      },
+      {
+        "id": "302",
+        "idMedico": "119",
+        "idCategoria": "12"
+      },
+      {
+        "id": "303",
+        "idMedico": "120",
+        "idCategoria": "12"
+      },
+      {
+        "id": "306",
+        "idMedico": "129",
+        "idCategoria": "7"
+      },
+      {
+        "id": "307",
+        "idMedico": "129",
+        "idCategoria": "12"
+      },
+      {
+        "id": "317",
+        "idMedico": "90",
+        "idCategoria": "9"
+      },
+      {
+        "id": "318",
+        "idMedico": "90",
+        "idCategoria": "34"
+      },
+      {
+        "id": "322",
+        "idMedico": "22",
+        "idCategoria": "12"
+      },
+      {
+        "id": "323",
+        "idMedico": "12",
+        "idCategoria": "12"
+      },
+      {
+        "id": "327",
+        "idMedico": "133",
+        "idCategoria": "28"
+      },
+      {
+        "id": "337",
+        "idMedico": "45",
+        "idCategoria": "35"
+      },
+      {
+        "id": "338",
+        "idMedico": "45",
+        "idCategoria": "30"
+      },
+      {
+        "id": "339",
+        "idMedico": "47",
+        "idCategoria": "35"
+      },
+      {
+        "id": "340",
+        "idMedico": "47",
+        "idCategoria": "30"
+      },
+      {
+        "id": "352",
+        "idMedico": "30",
+        "idCategoria": "15"
+      },
+      {
+        "id": "363",
+        "idMedico": "54",
+        "idCategoria": "12"
+      },
+      {
+        "id": "372",
+        "idMedico": "43",
+        "idCategoria": "21"
+      },
+      {
+        "id": "374",
+        "idMedico": "143",
+        "idCategoria": "15"
+      },
+      {
+        "id": "375",
+        "idMedico": "131",
+        "idCategoria": "28"
+      },
+      {
+        "id": "384",
+        "idMedico": "14",
+        "idCategoria": "9"
+      },
+      {
+        "id": "386",
+        "idMedico": "50",
+        "idCategoria": "35"
+      },
+      {
+        "id": "387",
+        "idMedico": "50",
+        "idCategoria": "30"
+      },
+      {
+        "id": "388",
+        "idMedico": "75",
+        "idCategoria": "53"
+      },
+      {
+        "id": "389",
+        "idMedico": "75",
+        "idCategoria": "14"
+      },
+      {
+        "id": "390",
+        "idMedico": "144",
+        "idCategoria": "12"
+      },
+      {
+        "id": "391",
+        "idMedico": "105",
+        "idCategoria": "32"
+      },
+      {
+        "id": "413",
+        "idMedico": "169",
+        "idCategoria": "11"
+      },
+      {
+        "id": "415",
+        "idMedico": "170",
+        "idCategoria": "35"
+      },
+      {
+        "id": "416",
+        "idMedico": "170",
+        "idCategoria": "30"
+      },
+      {
+        "id": "417",
+        "idMedico": "171",
+        "idCategoria": "35"
+      },
+      {
+        "id": "418",
+        "idMedico": "171",
+        "idCategoria": "30"
+      },
+      {
+        "id": "420",
+        "idMedico": "173",
+        "idCategoria": "34"
+      },
+      {
+        "id": "421",
+        "idMedico": "174",
+        "idCategoria": "15"
+      },
+      {
+        "id": "428",
+        "idMedico": "41",
+        "idCategoria": "22"
+      },
+      {
+        "id": "431",
+        "idMedico": "53",
+        "idCategoria": "35"
+      },
+      {
+        "id": "432",
+        "idMedico": "53",
+        "idCategoria": "30"
+      },
+      {
+        "id": "434",
+        "idMedico": "161",
+        "idCategoria": "10"
+      },
+      {
+        "id": "435",
+        "idMedico": "57",
+        "idCategoria": "15"
+      },
+      {
+        "id": "437",
+        "idMedico": "66",
+        "idCategoria": "9"
+      },
+      {
+        "id": "438",
+        "idMedico": "66",
+        "idCategoria": "10"
+      },
+      {
+        "id": "440",
+        "idMedico": "99",
+        "idCategoria": "15"
+      },
+      {
+        "id": "442",
+        "idMedico": "179",
+        "idCategoria": "25"
+      },
+      {
+        "id": "443",
+        "idMedico": "180",
+        "idCategoria": "12"
+      },
+      {
+        "id": "444",
+        "idMedico": "180",
+        "idCategoria": "31"
+      },
+      {
+        "id": "447",
+        "idMedico": "182",
+        "idCategoria": "40"
+      },
+      {
+        "id": "448",
+        "idMedico": "183",
+        "idCategoria": "15"
+      },
+      {
+        "id": "450",
+        "idMedico": "185",
+        "idCategoria": "9"
+      },
+      {
+        "id": "451",
+        "idMedico": "186",
+        "idCategoria": "9"
+      },
+      {
+        "id": "452",
+        "idMedico": "186",
+        "idCategoria": "42"
+      },
+      {
+        "id": "454",
+        "idMedico": "187",
+        "idCategoria": "35"
+      },
+      {
+        "id": "455",
+        "idMedico": "187",
+        "idCategoria": "30"
+      },
+      {
+        "id": "457",
+        "idMedico": "29",
+        "idCategoria": "15"
+      },
+      {
+        "id": "459",
+        "idMedico": "11",
+        "idCategoria": "9"
+      },
+      {
+        "id": "460",
+        "idMedico": "177",
+        "idCategoria": "61"
+      },
+      {
+        "id": "461",
+        "idMedico": "177",
+        "idCategoria": "9"
+      },
+      {
+        "id": "462",
+        "idMedico": "62",
+        "idCategoria": "15"
+      },
+      {
+        "id": "466",
+        "idMedico": "190",
+        "idCategoria": "7"
+      },
+      {
+        "id": "470",
+        "idMedico": "19",
+        "idCategoria": "12"
+      },
+      {
+        "id": "471",
+        "idMedico": "83",
+        "idCategoria": "31"
+      },
+      {
+        "id": "475",
+        "idMedico": "157",
+        "idCategoria": "13"
+      },
+      {
+        "id": "476",
+        "idMedico": "158",
+        "idCategoria": "60"
+      },
+      {
+        "id": "477",
+        "idMedico": "92",
+        "idCategoria": "39"
+      },
+      {
+        "id": "478",
+        "idMedico": "92",
+        "idCategoria": "38"
+      },
+      {
+        "id": "479",
+        "idMedico": "13",
+        "idCategoria": "9"
+      },
+      {
+        "id": "480",
+        "idMedico": "178",
+        "idCategoria": "31"
+      },
+      {
+        "id": "481",
+        "idMedico": "48",
+        "idCategoria": "35"
+      },
+      {
+        "id": "482",
+        "idMedico": "48",
+        "idCategoria": "30"
+      },
+      {
+        "id": "483",
+        "idMedico": "100",
+        "idCategoria": "35"
+      },
+      {
+        "id": "484",
+        "idMedico": "100",
+        "idCategoria": "30"
+      },
+      {
+        "id": "485",
+        "idMedico": "20",
+        "idCategoria": "12"
+      },
+      {
+        "id": "487",
+        "idMedico": "88",
+        "idCategoria": "7"
+      },
+      {
+        "id": "488",
+        "idMedico": "153",
+        "idCategoria": "42"
+      },
+      {
+        "id": "489",
+        "idMedico": "160",
+        "idCategoria": "63"
+      },
+      {
+        "id": "490",
+        "idMedico": "164",
+        "idCategoria": "64"
+      },
+      {
+        "id": "491",
+        "idMedico": "23",
+        "idCategoria": "23"
+      },
+      {
+        "id": "492",
+        "idMedico": "24",
+        "idCategoria": "13"
+      },
+      {
+        "id": "493",
+        "idMedico": "109",
+        "idCategoria": "39"
+      },
+      {
+        "id": "494",
+        "idMedico": "109",
+        "idCategoria": "38"
+      },
+      {
+        "id": "495",
+        "idMedico": "38",
+        "idCategoria": "18"
+      },
+      {
+        "id": "496",
+        "idMedico": "163",
+        "idCategoria": "15"
+      },
+      {
+        "id": "497",
+        "idMedico": "117",
+        "idCategoria": "40"
+      },
+      {
+        "id": "499",
+        "idMedico": "125",
+        "idCategoria": "53"
+      },
+      {
+        "id": "500",
+        "idMedico": "125",
+        "idCategoria": "14"
+      },
+      {
+        "id": "504",
+        "idMedico": "114",
+        "idCategoria": "9"
+      },
+      {
+        "id": "505",
+        "idMedico": "122",
+        "idCategoria": "28"
+      },
+      {
+        "id": "507",
+        "idMedico": "134",
+        "idCategoria": "28"
+      },
+      {
+        "id": "508",
+        "idMedico": "135",
+        "idCategoria": "9"
+      },
+      {
+        "id": "509",
+        "idMedico": "135",
+        "idCategoria": "34"
+      },
+      {
+        "id": "510",
+        "idMedico": "136",
+        "idCategoria": "7"
+      },
+      {
+        "id": "511",
+        "idMedico": "137",
+        "idCategoria": "25"
+      },
+      {
+        "id": "512",
+        "idMedico": "139",
+        "idCategoria": "48"
+      },
+      {
+        "id": "513",
+        "idMedico": "40",
+        "idCategoria": "19"
+      },
+      {
+        "id": "514",
+        "idMedico": "147",
+        "idCategoria": "17"
+      },
+      {
+        "id": "515",
+        "idMedico": "152",
+        "idCategoria": "28"
+      },
+      {
+        "id": "520",
+        "idMedico": "194",
+        "idCategoria": "34"
+      },
+      {
+        "id": "521",
+        "idMedico": "195",
+        "idCategoria": "35"
+      },
+      {
+        "id": "522",
+        "idMedico": "195",
+        "idCategoria": "30"
+      },
+      {
+        "id": "524",
+        "idMedico": "197",
+        "idCategoria": "63"
+      },
+      {
+        "id": "525",
+        "idMedico": "198",
+        "idCategoria": "12"
+      },
+      {
+        "id": "528",
+        "idMedico": "201",
+        "idCategoria": "35"
+      },
+      {
+        "id": "529",
+        "idMedico": "201",
+        "idCategoria": "30"
+      },
+      {
+        "id": "531",
+        "idMedico": "203",
+        "idCategoria": "9"
+      },
+      {
+        "id": "532",
+        "idMedico": "81",
+        "idCategoria": "41"
+      },
+      {
+        "id": "533",
+        "idMedico": "159",
+        "idCategoria": "22"
+      },
+      {
+        "id": "534",
+        "idMedico": "205",
+        "idCategoria": "35"
+      },
+      {
+        "id": "535",
+        "idMedico": "205",
+        "idCategoria": "30"
+      },
+      {
+        "id": "538",
+        "idMedico": "200",
+        "idCategoria": "67"
+      },
+      {
+        "id": "541",
+        "idMedico": "207",
+        "idCategoria": "12"
+      },
+      {
+        "id": "542",
+        "idMedico": "123",
+        "idCategoria": "54"
+      },
+      {
+        "id": "543",
+        "idMedico": "123",
+        "idCategoria": "48"
+      },
+      {
+        "id": "544",
+        "idMedico": "181",
+        "idCategoria": "48"
+      },
+      {
+        "id": "545",
+        "idMedico": "181",
+        "idCategoria": "28"
+      },
+      {
+        "id": "546",
+        "idMedico": "72",
+        "idCategoria": "54"
+      },
+      {
+        "id": "547",
+        "idMedico": "72",
+        "idCategoria": "48"
+      },
+      {
+        "id": "548",
+        "idMedico": "208",
+        "idCategoria": "28"
+      },
+      {
+        "id": "550",
+        "idMedico": "210",
+        "idCategoria": "68"
+      },
+      {
+        "id": "551",
+        "idMedico": "211",
+        "idCategoria": "12"
+      },
+      {
+        "id": "566",
+        "idMedico": "212",
+        "idCategoria": "6"
+      },
+      {
+        "id": "567",
+        "idMedico": "212",
+        "idCategoria": "69"
+      },
+      {
+        "id": "570",
+        "idMedico": "172",
+        "idCategoria": "61"
+      },
+      {
+        "id": "572",
+        "idMedico": "215",
+        "idCategoria": "69"
+      },
+      {
+        "id": "575",
+        "idMedico": "217",
+        "idCategoria": "40"
+      },
+      {
+        "id": "576",
+        "idMedico": "218",
+        "idCategoria": "63"
+      },
+      {
+        "id": "577",
+        "idMedico": "219",
+        "idCategoria": "35"
+      },
+      {
+        "id": "578",
+        "idMedico": "219",
+        "idCategoria": "30"
+      },
+      {
+        "id": "579",
+        "idMedico": "220",
+        "idCategoria": "30"
+      },
+      {
+        "id": "581",
+        "idMedico": "222",
+        "idCategoria": "12"
+      },
+      {
+        "id": "582",
+        "idMedico": "223",
+        "idCategoria": "12"
+      },
+      {
+        "id": "583",
+        "idMedico": "224",
+        "idCategoria": "30"
+      },
+      {
+        "id": "584",
+        "idMedico": "225",
+        "idCategoria": "12"
+      },
+      {
+        "id": "585",
+        "idMedico": "226",
+        "idCategoria": "12"
+      },
+      {
+        "id": "587",
+        "idMedico": "228",
+        "idCategoria": "12"
+      },
+      {
+        "id": "588",
+        "idMedico": "229",
+        "idCategoria": "10"
+      },
+      {
+        "id": "589",
+        "idMedico": "230",
+        "idCategoria": "15"
+      },
+      {
+        "id": "590",
+        "idMedico": "231",
+        "idCategoria": "15"
+      },
+      {
+        "id": "591",
+        "idMedico": "232",
+        "idCategoria": "28"
+      },
+      {
+        "id": "592",
+        "idMedico": "233",
+        "idCategoria": "12"
+      },
+      {
+        "id": "593",
+        "idMedico": "234",
+        "idCategoria": "12"
+      },
+      {
+        "id": "596",
+        "idMedico": "191",
+        "idCategoria": "13"
+      },
+      {
+        "id": "599",
+        "idMedico": "238",
+        "idCategoria": "12"
+      },
+      {
+        "id": "601",
+        "idMedico": "213",
+        "idCategoria": "18"
+      },
+      {
+        "id": "603",
+        "idMedico": "202",
+        "idCategoria": "23"
+      },
+      {
+        "id": "604",
+        "idMedico": "165",
+        "idCategoria": "8"
+      },
+      {
+        "id": "605",
+        "idMedico": "193",
+        "idCategoria": "61"
+      },
+      {
+        "id": "606",
+        "idMedico": "193",
+        "idCategoria": "9"
+      },
+      {
+        "id": "607",
+        "idMedico": "240",
+        "idCategoria": "67"
+      },
+      {
+        "id": "608",
+        "idMedico": "196",
+        "idCategoria": "66"
+      },
+      {
+        "id": "609",
+        "idMedico": "196",
+        "idCategoria": "28"
+      },
+      {
+        "id": "610",
+        "idMedico": "235",
+        "idCategoria": "9"
+      },
+      {
+        "id": "611",
+        "idMedico": "235",
+        "idCategoria": "42"
+      },
+      {
+        "id": "612",
+        "idMedico": "214",
+        "idCategoria": "70"
+      },
+      {
+        "id": "613",
+        "idMedico": "167",
+        "idCategoria": "53"
+      },
+      {
+        "id": "614",
+        "idMedico": "167",
+        "idCategoria": "14"
+      },
+      {
+        "id": "615",
+        "idMedico": "188",
+        "idCategoria": "12"
+      },
+      {
+        "id": "616",
+        "idMedico": "241",
+        "idCategoria": "28"
+      },
+      {
+        "id": "617",
+        "idMedico": "176",
+        "idCategoria": "48"
+      },
+      {
+        "id": "618",
+        "idMedico": "166",
+        "idCategoria": "65"
+      },
+      {
+        "id": "619",
+        "idMedico": "204",
+        "idCategoria": "67"
+      },
+      {
+        "id": "620",
+        "idMedico": "189",
+        "idCategoria": "19"
+      },
+      {
+        "id": "621",
+        "idMedico": "192",
+        "idCategoria": "42"
+      },
+      {
+        "id": "622",
+        "idMedico": "192",
+        "idCategoria": "53"
+      },
+      {
+        "id": "623",
+        "idMedico": "184",
+        "idCategoria": "7"
+      },
+      {
+        "id": "624",
+        "idMedico": "89",
+        "idCategoria": "28"
+      },
+      {
+        "id": "625",
+        "idMedico": "239",
+        "idCategoria": "23"
+      },
+      {
+        "id": "626",
+        "idMedico": "21",
+        "idCategoria": "12"
+      },
+      {
+        "id": "627",
+        "idMedico": "175",
+        "idCategoria": "18"
+      },
+      {
+        "id": "628",
+        "idMedico": "199",
+        "idCategoria": "39"
+      },
+      {
+        "id": "629",
+        "idMedico": "199",
+        "idCategoria": "38"
+      },
+      {
+        "id": "630",
+        "idMedico": "130",
+        "idCategoria": "6"
+      },
+      {
+        "id": "631",
+        "idMedico": "221",
+        "idCategoria": "19"
+      },
+      {
+        "id": "632",
+        "idMedico": "128",
+        "idCategoria": "31"
+      },
+      {
+        "id": "636",
+        "idMedico": "237",
+        "idCategoria": "71"
+      },
+      {
+        "id": "637",
+        "idMedico": "242",
+        "idCategoria": "32"
+      }
+    ]
+  }
+]

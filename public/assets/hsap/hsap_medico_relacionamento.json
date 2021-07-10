@@ -1,0 +1,958 @@
+[
+  {
+    "type": "header",
+    "version": "4.7.7",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "hospitalsapira"
+  },
+  {
+    "type": "table",
+    "name": "hsap_medico_relacionamento",
+    "database": "hospitalsapira",
+    "data": [
+      {
+        "idTipo": "1",
+        "idMedico": "25"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "55"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "56"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "58"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "59"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "60"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "61"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "67"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "70"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "71"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "73"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "76"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "80"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "101"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "107"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "110"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "113"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "116"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "118"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "126"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "132"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "138"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "145"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "150"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "149"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "7"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "7"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "87"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "87"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "49"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "49"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "34"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "34"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "35"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "35"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "17"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "17"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "33"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "33"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "121"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "121"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "142"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "142"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "154"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "156"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "63"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "64"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "65"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "77"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "93"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "103"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "119"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "120"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "129"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "90"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "90"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "22"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "12"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "133"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "45"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "45"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "47"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "47"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "30"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "54"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "43"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "43"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "143"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "131"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "14"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "14"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "50"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "50"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "75"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "75"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "144"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "105"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "105"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "169"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "169"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "170"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "171"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "173"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "174"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "41"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "53"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "53"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "161"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "161"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "57"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "66"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "66"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "99"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "99"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "179"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "180"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "182"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "183"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "185"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "186"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "187"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "187"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "29"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "11"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "11"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "177"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "177"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "62"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "62"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "190"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "190"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "19"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "83"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "83"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "84"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "157"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "158"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "92"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "13"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "178"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "178"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "94"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "96"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "48"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "100"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "100"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "20"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "88"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "88"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "153"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "153"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "23"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "23"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "109"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "109"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "38"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "117"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "125"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "114"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "114"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "122"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "134"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "135"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "135"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "136"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "136"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "137"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "137"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "139"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "40"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "146"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "147"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "152"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "194"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "194"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "195"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "195"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "197"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "198"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "201"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "201"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "203"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "203"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "81"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "205"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "200"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "207"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "207"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "123"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "123"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "72"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "72"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "208"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "210"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "211"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "212"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "172"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "172"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "215"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "217"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "218"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "219"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "220"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "222"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "223"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "224"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "225"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "226"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "228"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "229"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "230"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "231"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "232"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "233"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "234"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "238"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "213"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "165"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "193"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "193"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "240"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "196"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "196"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "235"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "235"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "214"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "214"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "167"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "167"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "188"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "188"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "241"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "241"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "176"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "166"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "166"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "204"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "192"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "192"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "184"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "239"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "239"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "21"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "175"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "199"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "199"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "130"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "221"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "221"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "128"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "128"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "237"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "237"
+      },
+      {
+        "idTipo": "1",
+        "idMedico": "242"
+      },
+      {
+        "idTipo": "2",
+        "idMedico": "242"
+      }
+    ]
+  }
+]

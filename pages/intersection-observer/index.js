@@ -21,7 +21,7 @@ export default function Intersection() {
       observer.observe(target);
       let ani = constructAnimation(
         target,
-        keyframes.slide.up,
+        keyframes.slide.right,
         {
           duration: 750,
           easing: 'ease',

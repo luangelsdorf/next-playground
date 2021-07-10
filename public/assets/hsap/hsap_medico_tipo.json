@@ -1,0 +1,26 @@
+[
+  {
+    "type": "header",
+    "version": "4.7.7",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "hospitalsapira"
+  },
+  {
+    "type": "table",
+    "name": "hsap_medico_tipo",
+    "database": "hospitalsapira",
+    "data": [
+      {
+        "id": "1",
+        "titulo": "Centro de Especialidades"
+      },
+      {
+        "id": "2",
+        "titulo": "Corpo Cl\u00ednico"
+      }
+    ]
+  }
+]

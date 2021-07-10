@@ -1,0 +1,518 @@
+[
+  {
+    "type": "header",
+    "version": "4.7.7",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "hospitalsapira"
+  },
+  {
+    "type": "table",
+    "name": "hsap_categoria",
+    "database": "hospitalsapira",
+    "data": [
+      {
+        "id": "6",
+        "idPai": null,
+        "titulo": "Bucomaxilofacial",
+        "link": "bucomaxilofacial",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:13:45",
+        "dataAlteracao": "2018-08-29 16:47:18"
+      },
+      {
+        "id": "7",
+        "idPai": null,
+        "titulo": "Cardiologia",
+        "link": "cardiologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:13:56",
+        "dataAlteracao": null
+      },
+      {
+        "id": "8",
+        "idPai": null,
+        "titulo": "Cirurgia de Cabe\u00e7a e Pesco\u00e7o",
+        "link": "cirurgia-de-cabeca-e-pescoco",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:14:13",
+        "dataAlteracao": null
+      },
+      {
+        "id": "9",
+        "idPai": null,
+        "titulo": "Cirurgia Geral",
+        "link": "cirurgia-geral",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:14:22",
+        "dataAlteracao": null
+      },
+      {
+        "id": "10",
+        "idPai": null,
+        "titulo": "Cirurgia Pl\u00e1stica",
+        "link": "cirurgia-plastica",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:14:34",
+        "dataAlteracao": null
+      },
+      {
+        "id": "11",
+        "idPai": null,
+        "titulo": "Cirurgia Tor\u00e1cica",
+        "link": "cirurgia-toracica",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:14:44",
+        "dataAlteracao": "2016-11-17 11:17:28"
+      },
+      {
+        "id": "12",
+        "idPai": null,
+        "titulo": "Cl\u00ednica Geral",
+        "link": "clinica-geral",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:14:58",
+        "dataAlteracao": null
+      },
+      {
+        "id": "13",
+        "idPai": null,
+        "titulo": "Endocrinologia",
+        "link": "endocrinologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:15:18",
+        "dataAlteracao": null
+      },
+      {
+        "id": "14",
+        "idPai": null,
+        "titulo": "Gastroenterologia",
+        "link": "gastroenterologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:15:35",
+        "dataAlteracao": null
+      },
+      {
+        "id": "15",
+        "idPai": null,
+        "titulo": "Ginecologia \/ Obstetr\u00edcia",
+        "link": "ginecologia-0bstetricia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:15:54",
+        "dataAlteracao": null
+      },
+      {
+        "id": "16",
+        "idPai": null,
+        "titulo": "Nefrologia",
+        "link": "nefrologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:16:07",
+        "dataAlteracao": null
+      },
+      {
+        "id": "17",
+        "idPai": null,
+        "titulo": "Oftalmologia",
+        "link": "0ftalmologia",
+        "descricao": null,
+        "ativo": "N",
+        "dataInsercao": "2012-10-09 14:16:29",
+        "dataAlteracao": null
+      },
+      {
+        "id": "18",
+        "idPai": null,
+        "titulo": "Oncologia",
+        "link": "0ncologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:16:42",
+        "dataAlteracao": null
+      },
+      {
+        "id": "19",
+        "idPai": null,
+        "titulo": "Otorrinolaringologia",
+        "link": "0torrinolaringologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:16:56",
+        "dataAlteracao": null
+      },
+      {
+        "id": "20",
+        "idPai": null,
+        "titulo": "Proctologia",
+        "link": "proctologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:17:08",
+        "dataAlteracao": null
+      },
+      {
+        "id": "21",
+        "idPai": null,
+        "titulo": "Reumatologia",
+        "link": "reumatologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:17:21",
+        "dataAlteracao": null
+      },
+      {
+        "id": "22",
+        "idPai": null,
+        "titulo": "Psicologia",
+        "link": "psicologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:17:44",
+        "dataAlteracao": null
+      },
+      {
+        "id": "23",
+        "idPai": null,
+        "titulo": "Dermatologia",
+        "link": "dermatologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:18:22",
+        "dataAlteracao": null
+      },
+      {
+        "id": "24",
+        "idPai": null,
+        "titulo": "Fonoaudiologia",
+        "link": "fonoaudiologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:18:47",
+        "dataAlteracao": null
+      },
+      {
+        "id": "25",
+        "idPai": null,
+        "titulo": "Geriatria",
+        "link": "geriatria",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:19:07",
+        "dataAlteracao": null
+      },
+      {
+        "id": "26",
+        "idPai": null,
+        "titulo": "Infectologista",
+        "link": "infectologista",
+        "descricao": null,
+        "ativo": "N",
+        "dataInsercao": "2012-10-09 14:19:26",
+        "dataAlteracao": null
+      },
+      {
+        "id": "28",
+        "idPai": null,
+        "titulo": "Pediatria",
+        "link": "pediatria",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:20:09",
+        "dataAlteracao": null
+      },
+      {
+        "id": "30",
+        "idPai": null,
+        "titulo": "Traumatologia",
+        "link": "traumatologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:21:07",
+        "dataAlteracao": null
+      },
+      {
+        "id": "31",
+        "idPai": null,
+        "titulo": "Urologia",
+        "link": "urologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:21:13",
+        "dataAlteracao": null
+      },
+      {
+        "id": "32",
+        "idPai": null,
+        "titulo": "Pneumologia",
+        "link": "pneumologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:22:30",
+        "dataAlteracao": null
+      },
+      {
+        "id": "34",
+        "idPai": null,
+        "titulo": "Cirurgia Vascular",
+        "link": "cirurgia-vascular-1",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-10-09 14:30:18",
+        "dataAlteracao": null
+      },
+      {
+        "id": "35",
+        "idPai": null,
+        "titulo": "Ortopedia",
+        "link": "0rtopedia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 09:53:31",
+        "dataAlteracao": null
+      },
+      {
+        "id": "37",
+        "idPai": null,
+        "titulo": "V\u00eddeo artroscopia de joelho",
+        "link": "video-artroscopia-de-joelho",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 09:59:50",
+        "dataAlteracao": null
+      },
+      {
+        "id": "38",
+        "idPai": null,
+        "titulo": "Radiologia",
+        "link": "radiologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:01:21",
+        "dataAlteracao": null
+      },
+      {
+        "id": "39",
+        "idPai": null,
+        "titulo": "Diagn\u00f3stico por Imagem",
+        "link": "diagnostico-por-imagem",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:01:29",
+        "dataAlteracao": null
+      },
+      {
+        "id": "40",
+        "idPai": null,
+        "titulo": "Anestesiologia",
+        "link": "anestesiologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:01:50",
+        "dataAlteracao": "2015-11-10 09:04:38"
+      },
+      {
+        "id": "41",
+        "idPai": null,
+        "titulo": "Cirurgi\u00e3o Dentista",
+        "link": "cirurgiao-dentista",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:04:32",
+        "dataAlteracao": null
+      },
+      {
+        "id": "42",
+        "idPai": null,
+        "titulo": "Coloproctologia",
+        "link": "coloproctologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:05:32",
+        "dataAlteracao": null
+      },
+      {
+        "id": "43",
+        "idPai": null,
+        "titulo": "Medicina do Trabalho",
+        "link": "medicina-do-trabalho",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:06:33",
+        "dataAlteracao": null
+      },
+      {
+        "id": "44",
+        "idPai": null,
+        "titulo": "Medicina Geral Comunit\u00e1ria",
+        "link": "medicina-geral-comunitaria",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 10:08:07",
+        "dataAlteracao": null
+      },
+      {
+        "id": "48",
+        "idPai": null,
+        "titulo": "Neurologia",
+        "link": "neurologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 13:22:35",
+        "dataAlteracao": null
+      },
+      {
+        "id": "53",
+        "idPai": null,
+        "titulo": "Endoscopia",
+        "link": "endoscopia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 13:29:04",
+        "dataAlteracao": null
+      },
+      {
+        "id": "54",
+        "idPai": null,
+        "titulo": "Neurocirurgia",
+        "link": "neurocirurgia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-11-20 13:29:50",
+        "dataAlteracao": null
+      },
+      {
+        "id": "60",
+        "idPai": null,
+        "titulo": "Ecografia",
+        "link": "ecografia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-12-12 10:14:25",
+        "dataAlteracao": null
+      },
+      {
+        "id": "61",
+        "idPai": null,
+        "titulo": "Cirurgia do Aparelho Digestivo",
+        "link": "cirurgia-do-aparelho-digestivo",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-12-12 10:38:32",
+        "dataAlteracao": null
+      },
+      {
+        "id": "62",
+        "idPai": null,
+        "titulo": "Neuro Pediatria",
+        "link": "neuro-pediatria-1",
+        "descricao": null,
+        "ativo": "N",
+        "dataInsercao": "2012-12-12 11:10:13",
+        "dataAlteracao": null
+      },
+      {
+        "id": "63",
+        "idPai": null,
+        "titulo": "Psiquiatria",
+        "link": "psiquiatria",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2012-12-12 11:18:24",
+        "dataAlteracao": null
+      },
+      {
+        "id": "64",
+        "idPai": null,
+        "titulo": "Pneumo Pediatria",
+        "link": "pneumo-pediatria",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2013-04-25 10:27:25",
+        "dataAlteracao": null
+      },
+      {
+        "id": "65",
+        "idPai": null,
+        "titulo": "Mastologia",
+        "link": "mast0l0gia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2015-01-23 17:09:30",
+        "dataAlteracao": "2015-01-23 17:09:51"
+      },
+      {
+        "id": "66",
+        "idPai": null,
+        "titulo": "Neonatologia",
+        "link": "neonatologia",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2018-05-25 17:09:35",
+        "dataAlteracao": "2018-05-25 17:09:55"
+      },
+      {
+        "id": "67",
+        "idPai": null,
+        "titulo": "Nutricionista",
+        "link": "nutricionista",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2018-05-29 09:46:02",
+        "dataAlteracao": null
+      },
+      {
+        "id": "68",
+        "idPai": null,
+        "titulo": "Neuropediatra",
+        "link": "neuropediatra",
+        "descricao": null,
+        "ativo": "N",
+        "dataInsercao": "2018-08-29 16:41:32",
+        "dataAlteracao": null
+      },
+      {
+        "id": "69",
+        "idPai": null,
+        "titulo": "Cirurgia Bucomaxilofacial",
+        "link": "cirurgia-bucomaxilofacial",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2018-08-29 16:45:57",
+        "dataAlteracao": null
+      },
+      {
+        "id": "70",
+        "idPai": null,
+        "titulo": "Cirurgia Oncol\u00f3gica",
+        "link": "cirurgia-0ncologica",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2018-11-14 10:55:13",
+        "dataAlteracao": null
+      },
+      {
+        "id": "71",
+        "idPai": null,
+        "titulo": "Hematologista",
+        "link": "hematologista",
+        "descricao": null,
+        "ativo": "S",
+        "dataInsercao": "2021-05-04 08:35:49",
+        "dataAlteracao": null
+      }
+    ]
+  }
+]

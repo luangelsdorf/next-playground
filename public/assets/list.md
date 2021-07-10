@@ -1,0 +1,50 @@
+- Anestesiologia
+- Bucomaxilofacial
+- Cardiologia
+- Cirurgia Bucomaxilofacial
+- Cirurgia Geral
+- Cirurgia Oncológica
+- Cirurgia Plástica
+- Cirurgia Torácica
+- Cirurgia Vascular
+- Cirurgia de Cabeça e Pescoço
+- Cirurgia do Aparelho Digestivo
+- Cirurgião Dentista
+- Clínica Geral
+- Coloproctologia
+- Dermatologia
+- Diagnóstico por Imagem
+- Ecografia
+- Endocrinologia
+- Endoscopia
+- Fonoaudiologia
+- Gastroenterologia
+- Geriatria
+- Ginecologia / Obstetrícia
+- Hematologista
+- Infectologista
+- Mastologia
+- Medicina Geral Comunitária
+- Medicina do Trabalho
+- Nefrologia
+- Neonatologia
+- Neuro Pediatria
+- Neurocirurgia
+- Neurologia
+- Neuropediatra
+- Nutricionista
+- Oftalmologia
+- Oncologia
+- Ortopedia
+- Otorrinolaringologia
+- Pediatria
+- Pneumo Pediatria
+- Pneumologia
+- Proctologia
+- Psicologia
+- Psiquiatria
+- Radiologia
+- Reumatologia
+- Traumatologia
+- Urologia
+- Vídeo artroscopia de joelho
