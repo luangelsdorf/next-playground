@@ -7,52 +7,53 @@ export default function Track() {
     y: 0,
     relativeX: 0,
     relativeY: 0,
+    translateX: 0,
+    translateY: 0,
   });
   const [view, setView] = useState({ width: 0, height: 0 });
   const [center, setCenter] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    setView({ width: window.innerWidth, height: window.innerHeight });
+    setView({ width: document.getElementById('img').clientWidth, height: document.getElementById('img').clientHeight });
     setCenter(getViewportCenter());
 
-    window.onmousemove = e => {
+    document.getElementById('img').onmousemove = e => {
       setMousePos(getMousePos(e));
     }
-    window.onresize = () => {
-      setView({ width: window.innerWidth, height: window.innerHeight });
+    document.getElementById('img').onresize = () => {
+      setView({ width: document.getElementById('img').clientWidth, height: document.getElementById('img').clientHeight });
       setCenter(getViewportCenter());
     }
   }, [])
 
   function getViewportCenter() {
     return {
-      x: window.innerWidth / 2,
-      y: window.innerHeight / 2
+      x: document.getElementById('img').clientWidth / 2,
+      y: document.getElementById('img').clientHeight / 2
     };
   }
 
   function getMousePos(e) {
-    const relX = (e.pageX * 100) / window.innerWidth;
-    const relY = (e.pageY * 100) / window.innerHeight;
-    const translateX1 = (20 * relX) / 100;
-    const translateY1 = (20 * relY) / 100;
-    const translateX2 = (10 * relX) / 100;
-    const translateY2 = (10 * relY) / 100;
-    document.getElementById('img').style.transform = `translateX(${translateX1}px) translateY(${translateY1}px)`
-    document.getElementById('detalhe').style.transform = `translateX(-${translateX2}px) translateY(-${translateY2}px)`
+    const relX = (e.offsetX * 100) / document.getElementById('img').clientWidth;
+    const relY = (e.offsetY * 100) / document.getElementById('img').clientHeight;
+    const translateX = ((50 * relX) / 100) - 25;
+    const translateY = ((50 * relY) / 100) - 25;
+    document.getElementById('img').style.transform = `rotateY(${translateX}deg) rotateX(${translateY}deg)`
     return {
-      x: e.pageX,
-      y: e.pageY,
+      x: e.offsetX,
+      y: e.offsetY,
       relativeX: relX.toFixed(0),
       relativeY: relY.toFixed(0),
+      translateX: translateX,
+      translateY: translateY,
     }
   }
 
   return (
     <div className="container">
-      <div className="d-flex justify-content-center align-items-center position-relative" style={{height: '800px'}}>
-        <img id="img" className="img-fluid position-absolute" src="/img/typewriter.png" alt="asd"/>
-        <img id="detalhe" className="img-fluid position-absolute" src="/img/pattern.png" alt="asd"/>
+      <div className="d-flex justify-content-center align-items-center">
+        {/*<img id="img" className={styles.image} src="https://www.nyousefali.com.br/spiderman/img/spider-man.png" alt="asd"/>*/}
+        <img id="img" className={`${styles.image}`} src="https://www.nyousefali.com.br/spiderman/img/spider-man.png" />
       </div>
 
       <div className={styles.info}>
