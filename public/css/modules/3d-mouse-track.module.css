@@ -1,0 +1,24 @@
+.square {
+    margin-top: 100px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffecb5;
+    color: #222;
+    font-size: 36px;
+
+    transform:
+        rotateX(0deg)
+        rotateY(0deg)
+}
+
+.info {
+    position: absolute;
+    top: 75px;
+}
+
+.info p:first-letter {
+    font-weight: bolder;
+}

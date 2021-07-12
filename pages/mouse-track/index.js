@@ -34,7 +34,7 @@ export default function mouseTrack() {
     let hypotenuse = Math.sqrt((adjacentSide ** 2) + (oppositeSide ** 2));
     let sine = oppositeSide / hypotenuse;
     let angle = Math.asin(sine) * 180 / Math.PI;
-    img.style.transform = `rotate(${angle * (-1)}deg)`
+    img.style.transform = `rotateY(${angle * (-1)}deg)`
     return angle;
   }
 
