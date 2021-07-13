@@ -5,27 +5,34 @@
     color: #222;
 }
 
+.span {
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    background: #bb2d3b;
+}
+
 div .section:nth-child(1) {
-    background: #e9ecef;
+    background: #606065;
     height: 400px;
 }
 
 div .section:nth-child(2) {
-    background: #dee2e6;
+    background: #d4d6d9;
     height: 600px;
 }
 
 div .section:nth-child(3) {
-    background: #ced4da;
+    background: #c5c8cd;
     height: 200px;
 }
 
 div .section:nth-child(4) {
-    background: #adb5bd;
+    background: #a0a6ac;
     height: 800px;
 }
 
 div .section:nth-child(5) {
-    background: #6c757d;
+    background: #60676d;
     height: 500px;
 }

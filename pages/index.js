@@ -9,7 +9,7 @@ export let pages = [
   'apex-charts',
   'intersection-observer',
   'mouse-track',
-  '3d-mouse-track'
+  'rotate-mouse-track'
 ]
 
 export default function index() {

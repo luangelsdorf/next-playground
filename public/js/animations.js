@@ -27,19 +27,19 @@ export const animations = {
 
   slide: {
     up: [
-      { opacity: '0', transform: "translateY(50px)"},
-      { opacity: '1', transform: "initial"},
+      {transform: "rotateY(100px)"},
+      {transform: "initial"},
     ],
     down: [
-      {transform: "translateY(-50px)"},
+      {transform: "translateY(-100px)"},
       {transform: "initial"},
     ],
     left: [
-      {transform: "translateX(50px)"},
+      {transform: "translateX(100px)"},
       {transform: "initial"},
     ],
     right: [
-      {transform: "translateX(-50px)"},
+      {transform: "translateX(-100px)"},
       {transform: "initial"},
     ],
   },
@@ -53,10 +53,22 @@ export const animations = {
       {transform: "scale(1.1)"},
       {transform: "initial"},
     ],
+  },
+
+  closeFrom: {
+    up: [
+      {transformOrigin: 'top', transform: 'rotateX(-40deg)'},
+      {transformOrigin: 'top', transform: 'initial'},
+    ],
+    down: [
+      {},
+    ],
+    left: [],
+    right: [],
   }
 }
 
-const baseKeyframes = [
+export const baseKeyframes = [
   {opacity: 0},
   {opacity: 1}
 ]

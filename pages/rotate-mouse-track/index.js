@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../../public/css/modules/3d-mouse-track.module.css';
+import styles from '../../public/css/modules/rotate-mouse-track.module.css';
 
 export default function Track() {
   const [mousePos, setMousePos] = useState({
@@ -36,9 +36,9 @@ export default function Track() {
   function getMousePos(e) {
     const relX = (e.offsetX * 100) / document.getElementById('img').clientWidth;
     const relY = (e.offsetY * 100) / document.getElementById('img').clientHeight;
-    const translateX = ((50 * relX) / 100) - 25;
-    const translateY = ((50 * relY) / 100) - 25;
-    document.getElementById('img').style.transform = `rotateY(${translateX}deg) rotateX(${translateY}deg)`
+    const translateX = -(((20 * relX) / 100) - 10);
+    const translateY = (((20 * relY) / 100) - 10);
+    document.getElementById('img').style.transform = `perspective(300px) rotateX(${translateY}deg) rotateY(${translateX}deg)`
     return {
       x: e.offsetX,
       y: e.offsetY,
@@ -53,7 +53,12 @@ export default function Track() {
     <div className="container">
       <div className="d-flex justify-content-center align-items-center">
         {/*<img id="img" className={styles.image} src="https://www.nyousefali.com.br/spiderman/img/spider-man.png" alt="asd"/>*/}
-        <img id="img" className={`${styles.image}`} src="https://www.nyousefali.com.br/spiderman/img/spider-man.png" />
+        <div id="img" className={`${styles.image}`}>
+          <div>
+            <img className="img-fluid" src="https://www.nyousefali.com.br/spiderman/img/spider-man.png" alt="spiderman" />
+          </div>
+          {/*<div className={styles.axis}>aasdasdasdads</div>*/}
+        </div>
       </div>
 
       <div className={styles.info}>

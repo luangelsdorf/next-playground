@@ -23,9 +23,19 @@
     margin-top: 200px;
     width: 600px;
     height: auto;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
 }
 
 .image strong {
     background-color: #6a1a21;
+}
+
+.axis {
+    transform: rotateY(90deg);
+    background-color: red;
+    border-left: 10px solid black;
+}
+
+.perspective {
+    perspective: 300px;
 }
