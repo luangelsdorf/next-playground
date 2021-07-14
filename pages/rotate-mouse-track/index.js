@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../public/css/modules/rotate-mouse-track.module.css';
+import requestAnimationFrame from "../request-animation-frame";
 
 export default function Track() {
   const [mousePos, setMousePos] = useState({
@@ -38,7 +39,13 @@ export default function Track() {
     const relY = (e.offsetY * 100) / document.getElementById('img').clientHeight;
     const translateX = -(((20 * relX) / 100) - 10);
     const translateY = (((20 * relY) / 100) - 10);
-    document.getElementById('img').style.transform = `perspective(300px) rotateX(${translateY}deg) rotateY(${translateX}deg)`
+
+
+    function animate() {
+      document.getElementById('img').style.transform = `perspective(300px) rotateX(${translateY}deg) rotateY(${translateX}deg)`;
+    }
+    window.requestAnimationFrame(animate);
+
     return {
       x: e.offsetX,
       y: e.offsetY,
