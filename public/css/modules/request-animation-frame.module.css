@@ -1,0 +1,19 @@
+.bgRed {
+    background: red;
+}
+
+.bgGreen {
+    background: green;
+}
+
+.bgBlue {
+    background: blue;
+}
+
+.w50 .bgGreen {
+    background: #000;
+}
+
+.w50 {
+    width: 50%;
+}
